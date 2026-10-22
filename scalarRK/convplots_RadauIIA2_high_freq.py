@@ -20,7 +20,7 @@ def create_timepoints(method,N,T):
 ## Creating right-hand side
 T=5
 ## Frequency - domain operator defined
-varepsilon = 10**(-2)
+varepsilon = 10**(-1)
 g = lambda t : np.sin(t/varepsilon)**2
 def gd(t):
     I = t < 0
